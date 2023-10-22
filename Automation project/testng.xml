@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="All Test Suite">
+    <test name = "Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+<!--          <class name="TestCase.UserRegisterationTest">-->
+            <class name="TestCase.MyAccountTest">
+<!--            <class name="TestCase.ProductHoverMenuTest">-->
+<!--            <class name="TestCase.UserRegisterationTestWithDDTandPropertiesFile">-->
+<!--            <class name="TestCase.UserRegisterationTestWithDDTandPropertiesFile">-->
+
+            </class>
+            <class name="TestCase.ProductHoverMenuTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
